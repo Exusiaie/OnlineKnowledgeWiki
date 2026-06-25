@@ -7,7 +7,6 @@
     "logoIcon": "✎",
     "footer": "© 2026 Ning 的在线知识库"
   },
-
   "nav": [
     {
       "title": "首页",
@@ -19,13 +18,62 @@
       "icon": "🐍",
       "path": "/python",
       "children": [
-        { "title": "Python3 教程", "path": "/python/python3", "file": "python/python3.md", "icon": "🐍", "order": 1 },
-        { "title": "NumPy",       "path": "/python/numpy",   "file": "python/numpy.md",   "icon": "📊", "order": 2 },
-        { "title": "Pandas",      "path": "/python/pandas",  "file": "python/pandas.md",  "icon": "📋", "order": 3 },
-        { "title": "Matplotlib",  "path": "/python/matplotlib","file": "python/matplotlib.md","icon": "📈", "order": 4 },
-        { "title": "SciPy",       "path": "/python/scipy",   "file": "python/scipy.md",   "icon": "⚙",  "order": 5 },
-        { "title": "Django",      "path": "/python/django",  "file": "python/django.md",  "icon": "🌐", "order": 6 },
-        { "title": "Flask",       "path": "/python/flask",   "file": "python/flask.md",   "icon": "🚀", "order": 7 }
+        {
+          "title": "Python3 教程",
+          "path": "/python/python3",
+          "file": "python/python3.md",
+          "icon": "🐍",
+          "order": 1
+        },
+        {
+          "title": "NumPy",
+          "path": "/python/numpy",
+          "file": "python/numpy.md",
+          "icon": "📊",
+          "order": 2
+        },
+        {
+          "title": "Pandas",
+          "path": "/python/pandas",
+          "file": "python/pandas.md",
+          "icon": "📋",
+          "order": 3
+        },
+        {
+          "title": "Matplotlib",
+          "path": "/python/matplotlib",
+          "file": "python/matplotlib.md",
+          "icon": "📈",
+          "order": 4
+        },
+        {
+          "title": "SciPy",
+          "path": "/python/scipy",
+          "file": "python/scipy.md",
+          "icon": "⚙",
+          "order": 5
+        },
+        {
+          "title": "Django",
+          "path": "/python/django",
+          "file": "python/django.md",
+          "icon": "🌐",
+          "order": 6
+        },
+        {
+          "title": "Flask",
+          "path": "/python/flask",
+          "file": "python/flask.md",
+          "icon": "🚀",
+          "order": 7
+        },
+        {
+          "title": "text",
+          "path": "/python/text",
+          "file": "python/text.md",
+          "icon": "📋",
+          "order": 77
+        }
       ]
     },
     {
@@ -33,12 +81,48 @@
       "icon": "🤖",
       "path": "/ai",
       "children": [
-        { "title": "TensorFlow",  "path": "/ai/tensorflow",  "file": "ai/tensorflow.md",  "icon": "🧠", "order": 1 },
-        { "title": "PyTorch",     "path": "/ai/pytorch",     "file": "ai/pytorch.md",     "icon": "🔥", "order": 2 },
-        { "title": "Keras",       "path": "/ai/keras",       "file": "ai/keras.md",       "icon": "⚡", "order": 3 },
-        { "title": "Scikit-learn","path": "/ai/scikit-learn","file": "ai/scikit-learn.md","icon": "🎯", "order": 4 },
-        { "title": "OpenCV",      "path": "/ai/opencv",      "file": "ai/opencv.md",      "icon": "👁", "order": 5 },
-        { "title": "LangChain",   "path": "/ai/langchain",   "file": "ai/langchain.md",   "icon": "🔗", "order": 6 }
+        {
+          "title": "TensorFlow",
+          "path": "/ai/tensorflow",
+          "file": "ai/tensorflow.md",
+          "icon": "🧠",
+          "order": 1
+        },
+        {
+          "title": "PyTorch",
+          "path": "/ai/pytorch",
+          "file": "ai/pytorch.md",
+          "icon": "🔥",
+          "order": 2
+        },
+        {
+          "title": "Keras",
+          "path": "/ai/keras",
+          "file": "ai/keras.md",
+          "icon": "⚡",
+          "order": 3
+        },
+        {
+          "title": "Scikit-learn",
+          "path": "/ai/scikit-learn",
+          "file": "ai/scikit-learn.md",
+          "icon": "🎯",
+          "order": 4
+        },
+        {
+          "title": "OpenCV",
+          "path": "/ai/opencv",
+          "file": "ai/opencv.md",
+          "icon": "👁",
+          "order": 5
+        },
+        {
+          "title": "LangChain",
+          "path": "/ai/langchain",
+          "file": "ai/langchain.md",
+          "icon": "🔗",
+          "order": 6
+        }
       ]
     },
     {
@@ -46,13 +130,55 @@
       "icon": "🌐",
       "path": "/frontend",
       "children": [
-        { "title": "HTML / CSS",   "path": "/frontend/html-css",   "file": "frontend/html-css.md",   "icon": "🎨", "order": 1 },
-        { "title": "JavaScript",   "path": "/frontend/javascript", "file": "frontend/javascript.md", "icon": "💛", "order": 2 },
-        { "title": "Vue.js",       "path": "/frontend/vue",       "file": "frontend/vue.md",       "icon": "💚", "order": 3 },
-        { "title": "React",        "path": "/frontend/react",     "file": "frontend/react.md",     "icon": "⚛",  "order": 4 },
-        { "title": "TypeScript",   "path": "/frontend/typescript","file": "frontend/typescript.md","icon": "🔷", "order": 5 },
-        { "title": "Bootstrap",    "path": "/frontend/bootstrap", "file": "frontend/bootstrap.md", "icon": "🅱",  "order": 6 },
-        { "title": "jQuery",       "path": "/frontend/jquery",    "file": "frontend/jquery.md",    "icon": "📝", "order": 7 }
+        {
+          "title": "HTML / CSS",
+          "path": "/frontend/html-css",
+          "file": "frontend/html-css.md",
+          "icon": "🎨",
+          "order": 1
+        },
+        {
+          "title": "JavaScript",
+          "path": "/frontend/javascript",
+          "file": "frontend/javascript.md",
+          "icon": "💛",
+          "order": 2
+        },
+        {
+          "title": "Vue.js",
+          "path": "/frontend/vue",
+          "file": "frontend/vue.md",
+          "icon": "💚",
+          "order": 3
+        },
+        {
+          "title": "React",
+          "path": "/frontend/react",
+          "file": "frontend/react.md",
+          "icon": "⚛",
+          "order": 4
+        },
+        {
+          "title": "TypeScript",
+          "path": "/frontend/typescript",
+          "file": "frontend/typescript.md",
+          "icon": "🔷",
+          "order": 5
+        },
+        {
+          "title": "Bootstrap",
+          "path": "/frontend/bootstrap",
+          "file": "frontend/bootstrap.md",
+          "icon": "🅱",
+          "order": 6
+        },
+        {
+          "title": "jQuery",
+          "path": "/frontend/jquery",
+          "file": "frontend/jquery.md",
+          "icon": "📝",
+          "order": 7
+        }
       ]
     },
     {
@@ -60,12 +186,48 @@
       "icon": "⚙",
       "path": "/backend",
       "children": [
-        { "title": "Node.js",      "path": "/backend/nodejs",      "file": "backend/nodejs.md",      "icon": "💚", "order": 1 },
-        { "title": "Go",           "path": "/backend/go",          "file": "backend/go.md",          "icon": "🔵", "order": 2 },
-        { "title": "Java",         "path": "/backend/java",        "file": "backend/java.md",        "icon": "☕", "order": 3 },
-        { "title": "PHP",          "path": "/backend/php",         "file": "backend/php.md",         "icon": "🐘", "order": 4 },
-        { "title": "Spring Boot",  "path": "/backend/spring-boot", "file": "backend/spring-boot.md", "icon": "🍃", "order": 5 },
-        { "title": "Express",      "path": "/backend/express",     "file": "backend/express.md",     "icon": "🚂", "order": 6 }
+        {
+          "title": "Node.js",
+          "path": "/backend/nodejs",
+          "file": "backend/nodejs.md",
+          "icon": "💚",
+          "order": 1
+        },
+        {
+          "title": "Go",
+          "path": "/backend/go",
+          "file": "backend/go.md",
+          "icon": "🔵",
+          "order": 2
+        },
+        {
+          "title": "Java",
+          "path": "/backend/java",
+          "file": "backend/java.md",
+          "icon": "☕",
+          "order": 3
+        },
+        {
+          "title": "PHP",
+          "path": "/backend/php",
+          "file": "backend/php.md",
+          "icon": "🐘",
+          "order": 4
+        },
+        {
+          "title": "Spring Boot",
+          "path": "/backend/spring-boot",
+          "file": "backend/spring-boot.md",
+          "icon": "🍃",
+          "order": 5
+        },
+        {
+          "title": "Express",
+          "path": "/backend/express",
+          "file": "backend/express.md",
+          "icon": "🚂",
+          "order": 6
+        }
       ]
     },
     {
@@ -73,11 +235,41 @@
       "icon": "🗃",
       "path": "/database",
       "children": [
-        { "title": "MySQL",        "path": "/database/mysql",      "file": "database/mysql.md",      "icon": "🐬", "order": 1 },
-        { "title": "MongoDB",      "path": "/database/mongodb",    "file": "database/mongodb.md",    "icon": "🍃", "order": 2 },
-        { "title": "Redis",        "path": "/database/redis",      "file": "database/redis.md",      "icon": "🔴", "order": 3 },
-        { "title": "PostgreSQL",   "path": "/database/postgresql", "file": "database/postgresql.md", "icon": "🐘", "order": 4 },
-        { "title": "SQLite",       "path": "/database/sqlite",     "file": "database/sqlite.md",     "icon": "📱", "order": 5 }
+        {
+          "title": "MySQL",
+          "path": "/database/mysql",
+          "file": "database/mysql.md",
+          "icon": "🐬",
+          "order": 1
+        },
+        {
+          "title": "MongoDB",
+          "path": "/database/mongodb",
+          "file": "database/mongodb.md",
+          "icon": "🍃",
+          "order": 2
+        },
+        {
+          "title": "Redis",
+          "path": "/database/redis",
+          "file": "database/redis.md",
+          "icon": "🔴",
+          "order": 3
+        },
+        {
+          "title": "PostgreSQL",
+          "path": "/database/postgresql",
+          "file": "database/postgresql.md",
+          "icon": "🐘",
+          "order": 4
+        },
+        {
+          "title": "SQLite",
+          "path": "/database/sqlite",
+          "file": "database/sqlite.md",
+          "icon": "📱",
+          "order": 5
+        }
       ]
     },
     {
@@ -85,41 +277,305 @@
       "icon": "🛠",
       "path": "/devops",
       "children": [
-        { "title": "Docker",       "path": "/devops/docker",      "file": "devops/docker.md",      "icon": "🐳", "order": 1 },
-        { "title": "Kubernetes",   "path": "/devops/kubernetes",  "file": "devops/kubernetes.md",  "icon": "☸",  "order": 2 },
-        { "title": "Linux",        "path": "/devops/linux",       "file": "devops/linux.md",       "icon": "🐧", "order": 3 },
-        { "title": "Git",          "path": "/devops/git",         "file": "devops/git.md",         "icon": "🔀", "order": 4 },
-        { "title": "Nginx",        "path": "/devops/nginx",       "file": "devops/nginx.md",       "icon": "🟢", "order": 5 }
+        {
+          "title": "Docker",
+          "path": "/devops/docker",
+          "file": "devops/docker.md",
+          "icon": "🐳",
+          "order": 1
+        },
+        {
+          "title": "Kubernetes",
+          "path": "/devops/kubernetes",
+          "file": "devops/kubernetes.md",
+          "icon": "☸",
+          "order": 2
+        },
+        {
+          "title": "Linux",
+          "path": "/devops/linux",
+          "file": "devops/linux.md",
+          "icon": "🐧",
+          "order": 3
+        },
+        {
+          "title": "Git",
+          "path": "/devops/git",
+          "file": "devops/git.md",
+          "icon": "🔀",
+          "order": 4
+        },
+        {
+          "title": "Nginx",
+          "path": "/devops/nginx",
+          "file": "devops/nginx.md",
+          "icon": "🟢",
+          "order": 5
+        }
       ]
     }
   ],
-
   "home": {
     "cards": [
-      { "title": "Python3 教程",  "desc": "Python3 入门与进阶教程",         "icon": "🐍", "path": "/python/python3",     "color": "green" },
-      { "title": "NumPy",         "desc": "高性能科学计算与数据分析",       "icon": "📊", "path": "/python/numpy",       "color": "blue" },
-      { "title": "Pandas",        "desc": "数据分析与数据处理利器",         "icon": "📋", "path": "/python/pandas",      "color": "orange" },
-      { "title": "Django",        "desc": "Python Web 框架",                "icon": "🌐", "path": "/python/django",      "color": "teal" },
-      { "title": "Flask",         "desc": "轻量级 Web 应用框架",            "icon": "🚀", "path": "/python/flask",       "color": "indigo" },
-      { "title": "TensorFlow",    "desc": "Google 深度学习框架",            "icon": "🧠", "path": "/ai/tensorflow",      "color": "orange" },
-      { "title": "PyTorch",       "desc": "Facebook 深度学习框架",          "icon": "🔥", "path": "/ai/pytorch",         "color": "red" },
-      { "title": "JavaScript",    "desc": "前端核心编程语言",               "icon": "💛", "path": "/frontend/javascript", "color": "blue" },
-      { "title": "Vue.js",        "desc": "渐进式前端框架",                 "icon": "💚", "path": "/frontend/vue",       "color": "green" },
-      { "title": "React",         "desc": "组件化前端 UI 库",               "icon": "⚛",  "path": "/frontend/react",     "color": "indigo" },
-      { "title": "Node.js",       "desc": "服务端 JavaScript 运行时",      "icon": "💚", "path": "/backend/nodejs",      "color": "green" },
-      { "title": "Go",            "desc": "高性能编译型语言",               "icon": "🔵", "path": "/backend/go",          "color": "blue" },
-      { "title": "MySQL",         "desc": "最流行的开源关系型数据库",       "icon": "🐬", "path": "/database/mysql",      "color": "teal" },
-      { "title": "MongoDB",       "desc": "文档型 NoSQL 数据库",            "icon": "🍃", "path": "/database/mongodb",    "color": "green" },
-      { "title": "Docker",        "desc": "容器化部署与管理",               "icon": "🐳", "path": "/devops/docker",       "color": "blue" },
-      { "title": "Linux",         "desc": "服务器操作系统基础",             "icon": "🐧", "path": "/devops/linux",        "color": "brown" },
-      { "title": "Git",           "desc": "分布式版本控制系统",             "icon": "🔀", "path": "/devops/git",          "color": "orange" },
-      { "title": "TypeScript",    "desc": "类型安全的 JavaScript 超集",    "icon": "🔷", "path": "/frontend/typescript", "color": "blue" },
-      { "title": "Kubernetes",    "desc": "容器编排与集群管理",             "icon": "☸",  "path": "/devops/kubernetes",   "color": "purple" },
-      { "title": "Scikit-learn",  "desc": "经典机器学习算法库",             "icon": "🎯", "path": "/ai/scikit-learn",     "color": "orange" },
-      { "title": "Spring Boot",   "desc": "Java 企业级应用框架",           "icon": "🍃", "path": "/backend/spring-boot", "color": "green" },
-      { "title": "Redis",         "desc": "高性能内存缓存数据库",           "icon": "🔴", "path": "/database/redis",      "color": "red" },
-      { "title": "OpenCV",        "desc": "计算机视觉与图像处理",           "icon": "👁", "path": "/ai/opencv",          "iconColor": "orange" },
-      { "title": "Nginx",         "desc": "高性能 Web 服务器与反向代理",   "icon": "🟢", "path": "/devops/nginx",        "color": "green" }
+      {
+        "title": "Python3 教程",
+        "desc": "Python 是一种解释型、面向对象、动态数据类型的高级程序设计语言。Pytho...",
+        "icon": "🐍",
+        "path": "/python/python3",
+        "color": "green"
+      },
+      {
+        "title": "NumPy",
+        "desc": "NumPy（Numerical Python）是 Python 科学计算的基础库...",
+        "icon": "📊",
+        "path": "/python/numpy",
+        "color": "blue"
+      },
+      {
+        "title": "Pandas",
+        "desc": "Pandas 是 Python 中最强大的数据分析与数据处理库，提供了 Data...",
+        "icon": "📋",
+        "path": "/python/pandas",
+        "color": "orange"
+      },
+      {
+        "title": "Matplotlib",
+        "desc": "Matplotlib 是 Python 最流行的 2D 绘图库，可生成出版质量级...",
+        "icon": "📈",
+        "path": "/python/matplotlib",
+        "color": "purple"
+      },
+      {
+        "title": "SciPy",
+        "desc": "SciPy 建立在 NumPy 之上，提供了科学计算与工程应用中常用的算法和数学...",
+        "icon": "⚙",
+        "path": "/python/scipy",
+        "color": "red"
+      },
+      {
+        "title": "Django",
+        "desc": "Django 是一个高级 Python Web 框架，遵循 MTV（Model-...",
+        "icon": "🌐",
+        "path": "/python/django",
+        "color": "teal"
+      },
+      {
+        "title": "Flask",
+        "desc": "Flask 是一个基于 Python 的轻量级 Web 应用框架。它被设计为\"微...",
+        "icon": "🚀",
+        "path": "/python/flask",
+        "color": "indigo"
+      },
+      {
+        "title": "text",
+        "desc": "测试能不能新加页面， 新加页面中如何新增图!image-202606260020...",
+        "icon": "📋",
+        "path": "/python/text",
+        "color": "brown"
+      },
+      {
+        "title": "TensorFlow",
+        "desc": "TensorFlow 是由 Google Brain 团队开发的开源深度学习框架...",
+        "icon": "🧠",
+        "path": "/ai/tensorflow",
+        "color": "green"
+      },
+      {
+        "title": "PyTorch",
+        "desc": "PyTorch 是由 Facebook（现 Meta）AI Research 实...",
+        "icon": "🔥",
+        "path": "/ai/pytorch",
+        "color": "blue"
+      },
+      {
+        "title": "Keras",
+        "desc": "Keras 是一个高层神经网络 API，用 Python 编写，能够以 Tens...",
+        "icon": "⚡",
+        "path": "/ai/keras",
+        "color": "orange"
+      },
+      {
+        "title": "Scikit-learn",
+        "desc": "Scikit-learn（sklearn）是 Python 生态中最受欢迎的机器...",
+        "icon": "🎯",
+        "path": "/ai/scikit-learn",
+        "color": "purple"
+      },
+      {
+        "title": "OpenCV",
+        "desc": "OpenCV（Open Source Computer Vision Libra...",
+        "icon": "👁",
+        "path": "/ai/opencv",
+        "color": "red"
+      },
+      {
+        "title": "LangChain",
+        "desc": "LangChain 是一个用于开发由大语言模型（LLM）驱动的应用程序的框架。它...",
+        "icon": "🔗",
+        "path": "/ai/langchain",
+        "color": "teal"
+      },
+      {
+        "title": "HTML / CSS",
+        "desc": "HTML（HyperText Markup Language）定义网页的结构和内...",
+        "icon": "🎨",
+        "path": "/frontend/html-css",
+        "color": "indigo"
+      },
+      {
+        "title": "JavaScript",
+        "desc": "JavaScript 是 Web 的核心编程语言，最初设计为浏览器端的脚本语言，...",
+        "icon": "💛",
+        "path": "/frontend/javascript",
+        "color": "brown"
+      },
+      {
+        "title": "Vue.js",
+        "desc": "Vue.js（简称 Vue）是一个用于构建用户界面的渐进式 JavaScript...",
+        "icon": "💚",
+        "path": "/frontend/vue",
+        "color": "green"
+      },
+      {
+        "title": "React",
+        "desc": "React 是由 Facebook（现 Meta）开发的用于构建用户界面的 Ja...",
+        "icon": "⚛",
+        "path": "/frontend/react",
+        "color": "blue"
+      },
+      {
+        "title": "TypeScript",
+        "desc": "TypeScript 是由 Microsoft 开发的开源编程语言，它是 Jav...",
+        "icon": "🔷",
+        "path": "/frontend/typescript",
+        "color": "orange"
+      },
+      {
+        "title": "Bootstrap",
+        "desc": "Bootstrap 是目前最流行的开源前端 CSS 框架，由 Twitter 的...",
+        "icon": "🅱",
+        "path": "/frontend/bootstrap",
+        "color": "purple"
+      },
+      {
+        "title": "jQuery",
+        "desc": "jQuery 是一个快速、轻量级的 JavaScript 库，它极大地简化了 H...",
+        "icon": "📝",
+        "path": "/frontend/jquery",
+        "color": "red"
+      },
+      {
+        "title": "Node.js",
+        "desc": "Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运...",
+        "icon": "💚",
+        "path": "/backend/nodejs",
+        "color": "teal"
+      },
+      {
+        "title": "Go",
+        "desc": "Go（又称 Golang）是 Google 在 2009 年发布的开源编程语言。...",
+        "icon": "🔵",
+        "path": "/backend/go",
+        "color": "indigo"
+      },
+      {
+        "title": "Java",
+        "desc": "Java 是全球使用最广泛的编程语言之一，由 Sun Microsystems（...",
+        "icon": "☕",
+        "path": "/backend/java",
+        "color": "brown"
+      },
+      {
+        "title": "PHP",
+        "desc": "PHP（Hypertext Preprocessor）是一种广泛用于 Web 开...",
+        "icon": "🐘",
+        "path": "/backend/php",
+        "color": "green"
+      },
+      {
+        "title": "Spring Boot",
+        "desc": "Spring Boot 是 Spring 家族的核心项目，旨在简化 Spring...",
+        "icon": "🍃",
+        "path": "/backend/spring-boot",
+        "color": "blue"
+      },
+      {
+        "title": "Express",
+        "desc": "Express 是 Node.js 最流行的 Web 应用框架，以其简洁、灵活和...",
+        "icon": "🚂",
+        "path": "/backend/express",
+        "color": "orange"
+      },
+      {
+        "title": "MySQL",
+        "desc": "MySQL 是全球最流行的开源关系型数据库管理系统（RDBMS）。它由瑞典 My...",
+        "icon": "🐬",
+        "path": "/database/mysql",
+        "color": "purple"
+      },
+      {
+        "title": "MongoDB",
+        "desc": "MongoDB 是最流行的文档型 NoSQL 数据库。它以 BSON（Binar...",
+        "icon": "🍃",
+        "path": "/database/mongodb",
+        "color": "red"
+      },
+      {
+        "title": "Redis",
+        "desc": "Redis（Remote Dictionary Server）是一个开源的、基于...",
+        "icon": "🔴",
+        "path": "/database/redis",
+        "color": "teal"
+      },
+      {
+        "title": "PostgreSQL",
+        "desc": "PostgreSQL（简称 PG）是世界上功能最丰富的开源关系型数据库管理系统。...",
+        "icon": "🐘",
+        "path": "/database/postgresql",
+        "color": "indigo"
+      },
+      {
+        "title": "SQLite",
+        "desc": "SQLite 是一个嵌入式的关系型数据库引擎，以其零配置、轻量级和自包含的特性著...",
+        "icon": "📱",
+        "path": "/database/sqlite",
+        "color": "brown"
+      },
+      {
+        "title": "Docker",
+        "desc": "Docker 是一个开源的容器化平台，它允许开发者将应用及其所有依赖打包到一个标...",
+        "icon": "🐳",
+        "path": "/devops/docker",
+        "color": "green"
+      },
+      {
+        "title": "Kubernetes",
+        "desc": "Kubernetes（简称 K8s）是 Google 开源的容器编排平台，用于自...",
+        "icon": "☸",
+        "path": "/devops/kubernetes",
+        "color": "blue"
+      },
+      {
+        "title": "Linux",
+        "desc": "Linux 是一个开源的操作系统内核，基于 Unix 架构设计。它驱动着全球绝大...",
+        "icon": "🐧",
+        "path": "/devops/linux",
+        "color": "orange"
+      },
+      {
+        "title": "Git",
+        "desc": "Git 是由 Linus Torvalds（Linux 内核创始人）创建的分布式...",
+        "icon": "🔀",
+        "path": "/devops/git",
+        "color": "purple"
+      },
+      {
+        "title": "Nginx",
+        "desc": "Nginx（读作 \"Engine X\"）是由俄罗斯程序员 Igor Sysoev...",
+        "icon": "🟢",
+        "path": "/devops/nginx",
+        "color": "red"
+      }
     ]
   }
 }
